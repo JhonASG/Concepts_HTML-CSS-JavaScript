@@ -1,0 +1,52 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+}
+
+header {
+    background-color: salmon;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    height: 100px;
+}
+
+h1 {
+    align-self:center;
+    font-size: 34px;
+}
+h2 {
+    font-size: 20px;
+}
+
+.container {
+    display: flex;
+}
+
+aside {
+    border: 1px solid black;
+    width: 20%;
+}
+
+main {
+    border: 1px solid black;
+    padding: 2em;
+    width: 80%;
+}
+
+footer {
+    border: 1px solid black;
+}
+
+.containerCards{
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+
+.card {
+    background: aliceblue;
+    padding: 1em;
+    text-align: center;
+    width: 25%;
+}

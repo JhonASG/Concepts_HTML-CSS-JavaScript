@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practiquemos HTML and CSS</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+</head>
+<body>
+    <header>
+        <h1>Portafolio HTML and CSS</h1>
+    </header>
+    <div class="container">
+        <aside>
+            <!--Etiqueta utilizada para marketing o cosas más apartes del foco principal de la página-->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#Home">Inicio</a>
+                    </li>
+                    <li>
+                        <a href="#Info">Información personal</a>
+                    </li>
+                    <li>
+                        <a href="#Projects">Proyectos</a>
+                    </li>
+                    <li>
+                        <a href="#Contact">Contacto</a>
+                    </li>
+                </ul>
+            </nav>
+        </aside>
+        <main>
+            <section id="biography">
+                <h2>Información Personal</h2>
+                <article>
+                    <h3>Mi historia</h3>
+                    <img src="https://via.placeholder.com/150" />
+                    <p>
+                        Soy desarrollador de videojuegos en Atomic Studio SAS, donde estamos desarrollando un juego para Garena
+                        en el editor Blockman editor con el lenguaje de programación Lua.
+                    </p>
+                </article>
+                <article>
+                    <h3>Trayectoria laboral</h3>
+                    <ul>
+                        <li>Trabajo 1</li>
+                        <li>Trabajo 2</li>
+                        <li>Trabajo 3</li>
+                        <li>Trabajo n</li>
+                    </ul>
+                    <ol>
+                        <li>Trabajo 1</li>
+                        <li>Trabajo 2</li>
+                        <li>Trabajo 3</li>
+                        <li>
+                            <div>
+                                <h4>Trabajo n</h4>
+                            </div>
+                        </li>
+                    </ol>
+                </article>
+            </section>
+            <section id="projects">
+                <h2>Proyectos</h2>
+                <div class="containerCards">
+                    <div class="card">
+                        <h3>Proyecto 1</h3>
+                        <img src="https://via.placeholder.com/150" alt="project one" />
+                    </div>
+                    <div class="card">
+                        <h3>Proyecto 2</h3>
+                        <img src="https://via.placeholder.com/150" alt="project two" />
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://via.placeholder.com/150" alt="project three" />
+                            <figcaption>Proyecto 3</figcaption>
+                        </figure>
+                    </div>
+                    <div class="card">
+                        <figure>
+                            <img src="https://via.placeholder.com/150" alt="project four" />
+                            <figcaption>Proyecto 4</figcaption>
+                        </figure>
+                    </div>
+                </div>
+            </section>
+            <section id="contact">
+                <h2>Contacto</h2>
+            </section>
+        </main>
+    </div>
+    <footer>
+        &copy; 2022
+    </footer>
+</body>
+</html>

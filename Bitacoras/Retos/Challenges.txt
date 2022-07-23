@@ -1,0 +1,11 @@
+Challenges:
+
+Challenge one - Portafolio
+
+	-> Crear un Menú hamburguesa (cambie de fila a columna)
+	-> Crear el footer fijo
+	-> Incluir las redes sociales en el footer
+	
+	Presentation:
+	
+	-> Tweet -> Incluir bitacora código y etiquetando a vanessamarely y un screenshoot de los retos
